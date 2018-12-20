@@ -12,7 +12,7 @@ class Fulfiller(object):
         get_response = alexa_skill.Processor(
             req.media,
             buildin_intents,
-            'Welcome to joke teller. Would you like to hear a joke?',
+            'Welcome to Button Buzzers!',
             'Good bye',
             JokeIntents(),  # Add implemented intent
         )
